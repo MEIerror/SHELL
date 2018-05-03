@@ -6,6 +6,7 @@ userHOME="/home/$2"
 STARTIP=160
 STOPIP=179
 
+
 add() {
 user=$1
 for i in $(seq ${STARTIP} ${STOPIP})
