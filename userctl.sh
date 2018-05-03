@@ -32,6 +32,7 @@ sed -i \"/^${user}/d\" /etc/sudoers
 done
 }
 
+
 usage() {
 echo 'Usage: userctl.sh {add|del} username'
 }
